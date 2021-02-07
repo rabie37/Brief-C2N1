@@ -136,48 +136,47 @@ section.box2 {
             width: 0;
             height: 0;
             border-left: 40px solid transparent;
-    border-right: 0px solid transparent;
-    border-top: 40px solid white;
-    margin-left: 155px;
+            border-right: 0px solid transparent;
+            border-top: 40px solid white;
+            margin-left: 155px;
 }
 .info p{
-    margin-top: 10px;
-    margin-left: 16px;
-    color: black;
+            margin-top: 10px;
+            margin-left: 16px;
+            color: black;
 }
 
           
 @media(max-width:800px){
-      .allbox {
-     display: flex;
-     flex-direction:column; 
+.allbox {
+        display: flex;
+        flex-direction:column; 
                 }
     .triangle{
           
            display: none;
 }
 section.box2 {
- 
-    width: 370px;
-    margin-left: 5px;
+    width: 254px;
+    margin-left: -34px;
     padding-bottom: 20px;
-   
-
 }
 .info {
     width: 160px;
     position: absolute;
-   left: 25%;
-    top: 68%;
+   left: 11%;
+    top: 64%;
  
 }
 body {
     background-image: url(./images/bg-mobile.png);
     background-repeat: no-repeat;
-    background-position-y: 5px;
+    background-position-y: 78px;
 }
 .box1 {
-    width: 350px;
+    width: 221px;
+    margin-left: -41px;
+    margin-top: -153px;
 }
 .progress-bar::after {
     content: '1000GB';
@@ -185,9 +184,13 @@ body {
     color: white;
     font-size: small;
     position: absolute;
-    right: 17%;
+    right: 23%;
 
+}
+.box2 p {
+    color: hsl(230deg 33% 62%);
+    margin: 21px -38px 4px 5px;
+    padding-top: 8px;
 }
 
 }
-          
