@@ -18,7 +18,6 @@ h1 {
 }
 .flexbox1 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -65,9 +64,7 @@ p {
 .tree {
     grid-area: tree;
 }
-/* h5{
-    text-align: center;
-} */
+
 h5 {
     display: block;
     font-size: 0.83em;

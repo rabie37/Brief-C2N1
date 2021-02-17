@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>atelier 2</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+  
+  <title>Atelier2</title>
+
 </head>
 <body>
-    <section class="allbox">
-    <div class="box1">
-        <div class="logo"><img src="./images/logo.svg" alt=""></div>
-        <div class="icos">
-        <img src="./images/icon-document.svg" class="ic ic1" alt="">
-        <img src="./images/icon-folder.svg" class="ic ic2" alt="">
-        <img src="./images/icon-upload.svg" class="ic ic3" alt="">
-    </div>
-    </div>
-    <section class="box2">
-        <p>You've used 815 GB of your storage</p>
-        <div class="info">
-            <p><strong>18<sub>5</sub></strong>GB LEFT</p>
-            <div class="triangle"></div>
+  <div class="container">
 
-        </div>
-    <div class="progress-bar">
-     <div class="progress">
-         <div class="btn"></div>
-        
-     </div>
-    </section>
+    <div class="item menu" style="border-top-right-radius: 96px">
+      <div class="brand">
+        <img src="./images/logo.svg" alt="logo"/>
+      </div>
+      <div class="files">
+        <a href="#" rel="without"> <img src="./images/icon-document.svg" alt="file"/> </a>
+        <a href="#" rel="without"> <img src="./images/icon-folder.svg" alt="folder"/> </a>
+        <a href="#" rel="without"> <img src="./images/icon-upload.svg" alt="upload"/> </a>
+      </div>
     </div>
-</section>
+    <!-- 2nd Part -->
+    <div class="storage-status">
+      <div class="balloom">
+        <div class="content">
+          <strong>185</strong>
+          <small>GB Left</small>
+        </div>
+      </div>
+      <div class="item progress">
+        <div class="used">
+          You’ve used <strong>815 GB</strong> of your storage
+        </div>      
+        <div>
+          <div class="field">
+            <div class="bar">
+              <div class="bullet"></div>
+            </div>
+          </div>
+          <div class="count">
+            <strong>
+            <span>0 GB</span>
+            </strong>
+            <strong>
+            <span>1000 GB</span>
+          </strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </body>
 </html>

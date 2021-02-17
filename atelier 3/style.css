@@ -29,7 +29,11 @@ body {
     grid-area: box1;
     border-radius: 15px;
     padding: 30px;
-    margin-bottom: 54px;
+    /* margin-bottom: 54px; */
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 650px;
+    background-position-y: 50px;
 }
 .box2 {
     padding: 10px;
@@ -37,7 +41,7 @@ body {
     grid-area: box2;
     color: #f8fcfe;
     border-radius: 15px;
-    margin-bottom: 54px;
+    /* margin-bottom: 54px; */
 }
 .box3 {
     padding: 10px;
@@ -75,6 +79,8 @@ p {
 .description {
     margin-left: 12px;
 }
+
+
 @media (max-width: 650px){
    #container{
        display: block;
